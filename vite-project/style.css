@@ -1,0 +1,14 @@
+
+
+.orangeColor{
+    color: orange;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.card{
+    background-color: #f2f1;
+    display: inline-block;
+    width: 380px;
+    border-bottom: 1px solid ;
+}
