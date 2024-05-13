@@ -3,7 +3,7 @@
 import { useFormik } from "formik";
 import * as yup from "yup";
 
-function Signup() {
+function Formik_Yup() {
   const formik = useFormik({
     initialValues: {
       name: "",
@@ -12,14 +12,9 @@ function Signup() {
     },
 
     validationSchema: yup.object({
-      name: yup.string().min(2, "at least 2 characters name").required(),
-
+      name: yup.string().min(2, "at least 2 characters needed").required(),
       email: yup.string().email().required(),
-
-      password: yup
-        .string()
-        .min(6, "at least 6 characters password")
-        .required(),
+      password: yup.string().min(6, "at least 6 characters!").required(),
     }),
 
     onSubmit: (values) => {
@@ -27,19 +22,20 @@ function Signup() {
     },
   });
 
-  const renderNameError = formik.touched.email && formik.errors && (
-    <span style={{ color: "red" }}>{formik.errors.name}</span>
+  const renderNameError = formik.touched.name && formik.errors.name && (
+    <span>{formik.errors.name}</span>
   );
 
-  const renderEmailError = formik.touched.email && formik.errors && (
+  const renderEmailError = formik.touched.email && formik.errors.email && (
     <span>{formik.errors.email}</span>
   );
-  const renderPasswordError = formik.touched.password && formik.errors && (
-    <span style={{ color: "red" }}>{formik.errors.password}</span>
-  );
+
+  const renderPasswordError = formik.touched.password &&
+    formik.errors.password && <span>{formik.errors.password}</span>;
 
   const renderForm = (
     <form onSubmit={formik.handleSubmit}>
+      <h4>Formik With Yup</h4>
       <div>
         <label htmlFor="name">Name : </label>
         <input
@@ -65,6 +61,7 @@ function Signup() {
           required
         />
         <br />
+
         {renderEmailError}
       </div>
 
@@ -85,11 +82,7 @@ function Signup() {
     </form>
   );
 
-  return(
-    <div>
-      {renderForm}
-    </div>
-  );
+  return <div>{renderForm}</div>;
 }
 
-export default Signup;
+export default Formik_Yup;

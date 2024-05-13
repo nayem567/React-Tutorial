@@ -1,11 +1,11 @@
 import "./App.css";
 import FormikSignUp from "./components/FormikSignUp";
-import Signup from "./components/SignUp";
+import Formik_Yup from "./components/FormikWithYup";
 
 function App() {
   return <div>
-    <Signup />
     <FormikSignUp />
+    <Formik_Yup />
   </div>;
 }
 
