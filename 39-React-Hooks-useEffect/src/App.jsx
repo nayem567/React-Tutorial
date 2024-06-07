@@ -1,17 +1,25 @@
+import "./App.css";
 
-import './App.css';
-import DataFetch from './assets/Components/Hooks/DataFetch';
+// import DataFetch from './assets/Hooks/useEffect/DataFetch';
 // import UseEffectExample from './assets/Components/Hooks/useEffectExample';
 
-const App = () =>{
+// 7th June, 2024
+// Custom Hook
+import CustomDataFetch from "./assets/Hooks/Custom-Hook/CustomDataFetch";
 
-    return(
-        <div>
-            {/* <UseEffectExample /> */}
+const App = () => {
+  return (
+    <div>
+      {/* <UseEffectExample /> */}
 
-            <DataFetch />
+      {/* 31st May, 2024 */}
+      {/* <DataFetch /> */}
 
-        </div>
-    )
-}
+      {/* 7th June, 2024 */}
+      {/* Custom Hook */}
+
+      <CustomDataFetch />
+    </div>
+  );
+};
 export default App;
