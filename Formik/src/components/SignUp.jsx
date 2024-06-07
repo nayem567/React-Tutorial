@@ -3,8 +3,6 @@ import { useState } from "react";
 
 function Signup() {
 
-   
-
     const [userName, setUserName ] = useState("");
     const [userEmail, setUserEmail ] = useState("");
     const [userPassword, setUserPassword ] = useState("");
