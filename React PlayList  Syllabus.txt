@@ -1,0 +1,19 @@
+1. JSX and JS Expression
+2. Components
+3. Props and Destructuring
+4. Mapping data to Components
+5. Mapping data with Unique ID
+6. Class Components
+7. State, setState, Event Handler
+8. Event Handler Binding
+9. React Hooks
+10. useState Hook 
+11.Event Bubbling
+12. Controlled Components
+13. useState with Object
+14. Passing Data from Child to Parent
+15. State Lifting
+16. Control Data with Formik
+17. Validate Data with Yup
+18. useEffect Hook 
+
