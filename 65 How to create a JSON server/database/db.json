@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "mohaymenul islam",
+      "email": "nayemwebdev@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "nayem islam",
+      "email": "nayem@gmail.com"
+    }
+  ]
+}

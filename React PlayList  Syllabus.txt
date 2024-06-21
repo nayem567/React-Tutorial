@@ -17,3 +17,7 @@
 17. Validate Data with Yup
 18. useEffect Hook 
 
+61. React Router - useParam
+62. React Router - useLocation Hook*
+62. React Router - Route Parameter, Query Parameter 
+
