@@ -2,13 +2,12 @@
   "users": [
     {
       "id": 1,
-      "name": "mohaymenul islam",
+      "name": "Mohaymeul Islam",
       "email": "nayemwebdev@gmail.com"
     },
-    {
-      "id": 2,
-      "name": "nayem islam",
-      "email": "nayem@gmail.com"
+    { "id": 2, 
+      "name": "Nayem Islam", 
+      "email": "nayem@gmail.com" 
     }
   ]
 }
