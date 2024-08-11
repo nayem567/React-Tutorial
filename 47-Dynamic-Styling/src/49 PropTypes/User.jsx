@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const User = (props) => {
 
   console.log(props.userObject);
-W
+
   return (
     <div>
       <h3>{props.userName}</h3>

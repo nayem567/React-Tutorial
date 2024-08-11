@@ -1,0 +1,13 @@
+
+
+nav{
+  background-color: chocolate;
+  padding: 1rem;
+  text-align: center;
+}
+
+.nav-link{
+  padding: 0 1rem;
+  color: #fff;
+}
+

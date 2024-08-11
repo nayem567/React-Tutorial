@@ -20,9 +20,7 @@ function UserToDo() {
         <div>
           <label>Add Your To Do : </label>
         </div>
-
         <input type="text" onChange={handleInput} value={userValue} />
-
         <div>
           <button type="submit">Submit</button>
         </div>
